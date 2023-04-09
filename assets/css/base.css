@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: #81a09d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app{
+  max-width: 60rem;
+}
+
+.app h1{
+  font-size: 3rem;
+  
+}
+
+.app .item {
+  font-size: 2rem;
+  padding: 1rem 2.5rem;
+}
+
+.app .item p {
+  padding-top: 1rem;
+}
+.d-none{
+  display: none;
+}
+
+.content {
+  font-size: 1.6rem;
+  margin-left: 3rem ;
+}
+
+.icon{
+  color: blue;
+}
